@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DRAGON FIGHTER</title>
+</head>
+<body>
+    <table>
+        <tr class="stats">
+            <td class="xp">XP: 0</td>
+            <td class="health" align="center">Health: 100</td>
+            <td class="gold" align="right" >Gold: 55</td>
+        </tr>
+        <tr class="buttons">
+            <td colspan="3">
+                <button class="btn1">Go To Store</button>
+                <button class="btn2">Go To Cave</button>
+                <button class="btn3">Fight Dragon(50gold)</button>
+            </td>
+        </tr>
+        <tr class="message">
+            <td colspan="3" class="message-content"><b>WELCOME TO TOWNSQUARE</b><br>Defeat The Dragon<br>Be The Champion</td>
+        </tr>
+        <tr class="weaponnow">
+            <td colspan="3" class="current-weapon">Current Weapon: Stick&nbsp;&nbsp;&nbsp;&nbsp;Power: 5</td>
+        </tr>
+    </table>
+    <div id="monsterstats">
+        <span class="stat"><b>Monster Name:<span id="monstername"></span></b></span>
+        <span class="stat"><b>Monster Health:<span id="monsterhealth"></span></b></span>
+    </div>
+    <div> 
+        <img id="player" src="player.png" alt="Your Avatar" style="position: absolute;">
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

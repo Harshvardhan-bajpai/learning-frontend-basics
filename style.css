@@ -1,0 +1,115 @@
+body {
+    background-image: url('townsquare.webp');
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 10px solid rgb(196, 194, 194);
+    border-style:inset;
+    background-color :  rgb(196, 194, 194);
+}
+td {
+    padding: 10px;
+}
+
+tr.stats td {
+    border-bottom: 1px solid black;
+    color:black;
+    font-weight: bolder;
+}
+
+tr.buttons td {
+    border-bottom: 1px solid black;
+}
+
+td.message-content {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.btn1,.btn2,.btn3 {
+    background-color: white;
+    font-weight:bold;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover {
+    background-color: rgb(212, 210, 210);
+}
+
+.overlay-imageslimy {
+    position: absolute;
+    top: 50%; 
+    left: 25%;
+    width: 200px; 
+    height: 200px;
+    border-radius: 9%;
+}
+
+.overlay-imagefanged {
+    position: absolute;
+    top: 50%; 
+    right:25%;
+    width: 200px; 
+    height: 200px;
+    border-radius: 9%;
+
+}
+
+.overlay-imageweaponbought {
+    position: absolute;
+    top: 50%; 
+    left:5%;
+    width: 300px; 
+    height: 300px;
+    border-radius: 6%;
+
+}
+
+.overlay-imageweaponbought2 {
+    position: absolute;
+    top: 50%; 
+    left:37%;
+    width: 300px; 
+    height: 300px;
+    border-radius: 6%;
+
+}
+
+.overlay-imageweaponbought3 {
+    position: absolute;
+    top: 50%; 
+    left:69%;
+    width: 300px; 
+    height: 300px;
+    border-radius: 6%;
+}
+
+#monsterstats{
+    display: none;
+    border:1px solid black;
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+
+#player { 
+    width: 170px;
+    height: 170px;
+    top:53%;
+    left:42.8% ;
+    border-radius: 20%;
+}
